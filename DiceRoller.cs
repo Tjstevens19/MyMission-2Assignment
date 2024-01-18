@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Create a namespace
 namespace DiceRollerNamespace
 {
     // Create a diceRoller class
@@ -12,6 +13,7 @@ namespace DiceRollerNamespace
         // Create a random number generator
         private readonly Random random;
 
+        // Create a constructor
         public DiceRoller()
         {
             random = new Random();
